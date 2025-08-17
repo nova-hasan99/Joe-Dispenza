@@ -315,7 +315,7 @@ export function ChatInterface() {
                     Video Resources
                   </h3>
                   <p className="text-sm text-gray-600">
-                    Get specific video guidance from Dan's content library
+                    Get specific video guidance from joe's content library
                   </p>
                 </div>
               </div>
@@ -375,7 +375,7 @@ export function ChatInterface() {
                       Video Resources
                     </h4>
                     <p className="text-xs text-gray-600">
-                      Get specific video guidance from Dan's content library
+                      Get specific video guidance from joe's content library
                     </p>
                   </div>
                 </div>
