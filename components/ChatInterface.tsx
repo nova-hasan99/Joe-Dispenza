@@ -19,6 +19,7 @@ import {
   HeartCrack,
   Handshake,
   Youtube,
+  Brain,
 } from 'lucide-react';
 
 
@@ -278,7 +279,7 @@ export function ChatInterface() {
               <p className="text-gray-600 mb-8 max-w-lg mx-auto leading-relaxed">
                 This assistant is based on Joe Dispenza's public content.
                 Responses are for informational purposes only and may not be
-                100% accurate. All intellectual property belongs to Dan Buglio.
+                100% accurate. All intellectual property belongs to Joe Dispenza.
               </p>
 
               {/* Feature highlights */}
@@ -297,13 +298,13 @@ export function ChatInterface() {
 
                 <div className="text-center p-4">
                   <div className="w-12 h-12 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                    <Handshake className="w-6 h-6 text-green-600" />
+                    <Brain className="w-6 h-6 text-green-600" />
                   </div>
                   <h3 className="font-semibold text-gray-800 mb-1">
-                    Parenting guidance
+                    Healing Science
                   </h3>
                   <p className="text-sm text-gray-600">
-                    Expert advice and strategies to help parents raise children and build strong family relationships.
+                    NYT bestselling researcher teaches formula merging neuroscience, epigenetics, quantum physics to transform lives.
                   </p>
                 </div>
 
@@ -338,7 +339,7 @@ export function ChatInterface() {
                 <p className="text-gray-600 mb-6 max-w-lg mx-auto text-sm leading-relaxed">
                   This assistant is based on Joe Dispenza's public content.
                   Responses are for informational purposes only and may not be
-                  100% accurate. All intellectual property belongs to Dan Buglio.
+                  100% accurate. All intellectual property belongs to Joe Dispenza.
                 </p>
 
                 {/* Feature highlights */}
@@ -357,13 +358,13 @@ export function ChatInterface() {
 
                   <div className="text-center p-3">
                     <div className="w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-2">
-                      <Handshake className="w-5 h-5 text-green-600" />
+                      <Brain className="w-5 h-5 text-green-600" />
                     </div>
                     <h4 className="font-semibold text-gray-800 mb-1 text-sm">
-                      Parenting guidance
+                      Healing Science
                     </h4>
                     <p className="text-xs text-gray-600">
-                      Expert advice and strategies to help parents raise children and build strong family relationships.
+                      NYT bestselling researcher teaches formula merging neuroscience, epigenetics, quantum physics to transform lives.
                     </p>
                   </div>
 

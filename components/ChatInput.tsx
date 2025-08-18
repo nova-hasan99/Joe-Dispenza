@@ -941,7 +941,7 @@ const handleLiveChatMessage = async (messageText: string) => {
             : 'bg-white border-gray-200 focus-within:border-gray-300'
         }`}>
           <div className="flex items-end gap-2 p-3">
-            <div className="relative">
+            {/* <div className="relative">
               <button
                 onClick={() => !isLiveChatMode && setShowTools(!showTools)}
                 className={`p-2 rounded-full transition-colors duration-200 ${
@@ -993,7 +993,7 @@ const handleLiveChatMessage = async (messageText: string) => {
                   </button>
                 </div>
               )}
-            </div>
+            </div> */}
 
             <textarea
               ref={textareaRef}
@@ -1078,7 +1078,7 @@ const handleLiveChatMessage = async (messageText: string) => {
           <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
             {[
               'Hello! 👋',
-              'How you equipping parents with a new way for solving challenge?',
+              'What is the quantum field, and how is it a reality beyond the senses?',
               'What can you do? 🤔',
             ].map((suggestion) => (
               <button
